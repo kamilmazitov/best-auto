@@ -76,15 +76,18 @@ body {
   margin-top: 15px;
 }
 
-.offer-mechanic {
-  background: url("../img/offer-mechanic.png") no-repeat right top;
-  width: 826px;
-  height: 1110px;
-  background-size: 100%;
-  position: absolute;
-  right: 0;
-  top: 132px;
+@media (min-width: 768px) {
+  .offer-mechanic {
+    background: url("../img/offer-mechanic.png") no-repeat right top;
+    width: 826px;
+    height: 1110px;
+    background-size: 100%;
+    position: absolute;
+    right: 0;
+    top: 132px;
+  }
 }
+
 
 .offer-cont__title {
   font-family: Value Sans Pro;
