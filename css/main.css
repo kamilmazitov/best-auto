@@ -78,9 +78,9 @@ body {
 
 .offer-mechanic {
   background: url("../img/offer-mechanic.png") no-repeat right top;
-  width: 826px;
-  height: 1110px;
-  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  background-size: 54.35%;
   position: absolute;
   right: 0;
   top: 132px;
