@@ -1,0 +1,523 @@
+@import url('../fonts/stylesheet.css');
+
+body {
+  background-color: #14192E;
+  overflow-x:hidden
+}
+
+.be-static {
+  position: static;
+}
+.header {
+  background: url("../img/offer-bg.jpg") no-repeat center top / cover;
+  min-height: 800px;
+  max-height: 800px;
+}
+
+.mnu-line {
+  padding-top: 48px;
+  margin-bottom: 185px;
+}
+
+.header-phone {
+  display: inline-flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.header-info {
+
+}
+
+.header-phone a {
+  font: 15px ‘Value Sans Pro’, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  margin-right: 26px;
+}
+
+.header-button {
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  border: 3px solid #FFD400;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: none;
+  border-radius: 3px;
+}
+
+.main-menu {
+
+}
+
+.main-menu__icon {
+  margin-top: 9px;
+  margin-right: 9px;
+}
+
+.menu-item {
+  font: 15px ‘Value Sans Pro’, Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  text-align: left;
+  display: inline-flex;
+  margin-top: 21px;
+  margin-right:7px;
+  margin-left: 35px;
+
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.offer-mechanic {
+  background: url("../img/offer-mechanic.png") no-repeat right top;
+  width: 826px;
+  height: 1110px;
+  background-size: 100%;
+  position: absolute;
+  right: 0;
+  top: 132px;
+}
+
+.offer-cont__title {
+  font-family: Value Sans Pro;
+  font-weight: 900;
+  font-size: 56px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  margin-bottom: 21px;
+  line-height: 50px;
+}
+
+.offer-cont__title__word {
+  color: #FFD400;
+  -moz-text-shadow:0 0 2px #FFD400;
+  -webkit-text-shadow:0 0 2px #FFD400;
+  text-shadow:0 0 2px #FFD400;
+}
+
+.offer-cont__text {
+  font-family: Value Sans Pro;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+  margin-bottom: 37px;
+}
+
+.offer-cont__btn {
+  width: 200px;
+  padding: 10px;
+  color: #fff;
+  border: 3px solid #FFD400;
+  color: #192034;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  background: #FFD400;
+  border-radius: 3px;
+  font-weight: 500;
+  -moz-box-shadow:0 0 10px #FFD400;
+  -webkit-box-shadow:0 0 10px #FFD400;
+  box-shadow:0 0 10px #FFD400;
+}
+
+.services__title {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+  margin-top: 85px;
+  margin-bottom: 17px;
+}
+
+.sections__title {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+  margin-top: 140px;
+  margin-bottom: 17px;
+}
+
+.services__cont {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+}
+
+.services-menu {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 32px 0 0 0;
+}
+
+.services-menu h3 {
+  font-family: Value Sans Pro;
+  color:  #FFFFFF;
+  font-size: 21px;
+  font-weight: 100;
+}
+
+.services-menu__active {
+  border-bottom: #FFD400;
+  border-bottom-style: inset;
+  border-bottom-width: 7px;
+}
+
+.services-card {
+  margin-top: 60px;
+  width: 250px;
+  height: 350px;
+  background-color: #171C32;
+}
+
+
+.card_img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_img img {
+  height: 100%;
+  width: auto;
+}
+
+.card-body {
+  color: #FFFFFF;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.card-body p {
+  text-align: center;
+}
+
+.card-body h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.services_btn {
+  margin-top: 21px;
+  display: flex;
+  justify-content: center;
+}
+
+.opportunities_card {
+  display: flex;
+}
+
+.opportunities-first-line {
+  margin-top: 60px;
+}
+
+.opportunities-second-line {
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.opportunities-card__img {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
+
+.opporunities-card__body {
+  color: #FFFFFF;
+  padding-top: 29px;
+  margin-left: 35px;
+}
+
+.opporunities-card__body__title {
+  font-family: Value Sans Pro;
+  margin-bottom: 13px;
+}
+
+.opporunities-card__body__text {
+  font-family: Value Sans Pro;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.reviews__cont {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+  margin-bottom: 41px;
+}
+
+.review-card {
+  background-color: #171C32;
+}
+
+.review-card__box-text {
+  color: #eeeeee;
+}
+
+.review-card__text {
+  font-family: Value Sans Pro;
+  font-size: 0.95rem;
+  padding: 35px 35px 35px 35px;
+}
+
+.review-card__bottom {
+  display: flex;
+  padding-left: 35px;
+  padding-bottom: 35px;
+}
+
+.review-card__bottom__image {
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  background: url(../img/avatar-1.jpg) no-repeat;
+  background-size: auto 100px;
+}
+
+.review-card__bottom__name-stars {
+  margin-left: 22px;
+  padding-top: 19px;
+}
+
+.review-card__bottom__name-stars__name {
+  font-family: Value Sans Pro;
+  font-weight: 200;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+}
+
+.review-card__bottom__links {
+  color: #444F5D;
+  margin-left: 133px;
+  padding-top: 35px;
+  font-size:  1.3rem;
+}
+
+.review-card__bottom__links__vk:hover {
+  color: #4A76A8;
+}
+
+.stars {
+  color: #FFD400;
+}
+
+.arrow-left {
+  font-size:  1.2rem;
+  color: #FFD400;
+}
+
+.arrow-right {
+  font-size:  1.2rem;
+  color: #FFD400;
+  text-align: right;
+}
+
+.circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  color: #D0B978;
+}
+
+.active-circle {
+  font-size: 0.9rem;
+  color: #FFD400;
+}
+
+.navigation-line {
+  margin-top: 80px;
+}
+
+.broken-car {
+  z-index: -1;
+  background: url(../img/broken-car.png) no-repeat left top;
+  width: 1920px;
+  height: 4007px;
+  background-size: 86%;
+  position: absolute;
+  left: 0;
+  top: 553px;
+}
+
+.contact-card__first-line {
+  display: inline-block;
+  margin-right: 68px;
+}
+
+.contact-card__first-line label, input {
+  display: block;
+}
+
+.contact-card__first-line input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  width: 268px;
+  margin-bottom: 45px;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+}
+
+.contact-card__first-line label {
+  font-family: Value Sans Pro;
+  color: #ffffff;
+}
+
+.contact-card__second-line input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  width: 268px;
+  margin-bottom: 45px;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+}
+
+.contact-card__second-line label {
+  font-family: Value Sans Pro;
+  color: #ffffff;
+}
+
+.contact-card__second-line label, input {
+  display: block;
+}
+
+.contact-card__second-line {
+  display: inline-block;
+}
+
+.contact-card__form {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contacts__phone {
+ display: flex;
+ align-items: center;
+ margin-bottom: 30px;
+}
+
+.contacts__phone h2 {
+  font-family: Value Sans Pro;
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  margin-left: 11px;
+}
+
+.contacts__phone i {
+  color: #FFD400;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.contacts__location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contacts__location h2 {
+  font-family: Value Sans Pro;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  margin-left: 11px;
+}
+
+.contacts__location i {
+  color: #FFD400;
+  font-size: 1.6rem;
+  text-align: center;
+  padding-left: 3px;
+}
+
+.contacts__mail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contacts__mail h2 {
+  font-family: Value Sans Pro;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 1.4rem;
+  margin-left: 11px;
+}
+
+.contacts__mail i {
+  color: #FFD400;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.contacts-block__social-networks {
+  display: flex;
+  margin-top: 50px;
+}
+
+.contacts-block__social-networks img {
+  width: 50px;
+}
+
+.contacts__map img {
+  height: 429px;
+}
+
+.contacts-block__text {
+  font-family: Value Sans Pro;
+  color: #FFFFFF;
+  margin-top: 18px;
+}
+
+.contacts-block {
+  height: 429px;
+}
+
+.contacts__btn {
+    width: 215px;
+    padding: 10px;
+    color: #fff;
+    border: 3px solid #FFD400;
+    color: #192034;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background: #FFD400;
+    border-radius: 3px;
+    font-weight: 500;
+    -moz-box-shadow: 0 0 10px #FFD400;
+    -webkit-box-shadow: 0 0 10px #FFD400;
+    box-shadow: 0 0 10px #FFD400;
+    margin-bottom: 50px;
+}
+
+.contacts-block__social-networks__vk {
+  margin-left: 15px;
+}
+
+.contacts-block__social-networks__twitter {
+  margin-left: 15px;
+}
+
+.contacts_title {
+  margin-bottom: 60px;
+}
+
+.contacts {
+  margin-bottom: 120px;
+}
