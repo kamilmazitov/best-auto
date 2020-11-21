@@ -76,7 +76,11 @@ body {
   margin-top: 15px;
 }
 
-@media (min-width: 768px) {
+.offer-mechanic {
+
+}
+
+@media (min-width: 1200px) {
   .offer-mechanic {
     background: url("../img/offer-mechanic.png") no-repeat right top;
     width: 826px;
@@ -88,6 +92,14 @@ body {
   }
 }
 
+.offer-mechanic-container {
+
+}
+
+@media (min-width: 1200px)
+.offer-mechanic-container {
+  display: block!important;
+}
 
 .offer-cont__title {
   font-family: Value Sans Pro;
@@ -97,6 +109,19 @@ body {
   letter-spacing: 1px;
   margin-bottom: 21px;
   line-height: 50px;
+}
+
+@media (max-width: 1200px) {
+  .offer-cont__title {
+    font-family: Value Sans Pro;
+    font-weight: 900;
+    font-size: 56px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+    line-height: 50px;
+    text-align: center;
+  }
 }
 
 .offer-cont__title__word {
@@ -112,6 +137,17 @@ body {
   color: #FFFFFF;
   margin-bottom: 37px;
 }
+
+@media (max-width: 1200px) {
+  .offer-cont__text {
+    font-family: Value Sans Pro;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+    text-align: center;
+  }
+}
+
 
 .offer-cont__btn {
   width: 200px;
@@ -130,6 +166,13 @@ body {
   box-shadow:0 0 10px #FFD400;
 }
 
+@media (max-width: 1200px) {
+  .offer-cont__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .services__title {
   text-align: center;
   color: #FFFFFF;
@@ -343,16 +386,21 @@ body {
 }
 
 .broken-car {
-  z-index: -1;
-  background: url(../img/broken-car.png) no-repeat left top;
-  width: 1920px;
-  height: 4007px;
-  background-size: 86%;
-  position: absolute;
-  left: 0;
-  top: 553px;
+
 }
 
+@media (min-width: 1200px) {
+  .broken-car {
+    z-index: -1;
+    background: url(../img/broken-car.png) no-repeat left top;
+    width: 1920px;
+    height: 4007px;
+    background-size: 86%;
+    position: absolute;
+    left: 0;
+    top: 553px;
+  }
+}
 .contact-card__first-line {
   display: inline-block;
   margin-right: 68px;
