@@ -5,6 +5,7 @@
   <script src="https://kit.fontawesome.com/458c484b82.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -12,16 +13,12 @@
     <div class="mnu-line">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
-            <a href="" class="logo"><img src="img/logo.svg" alt="Best Auto" class="img-fluid logo"></a>
+          <div class="col-md-3 col-4">
+            <div class="logo">
+              <img src="img/logo.svg" alt="Best Auto" class="img-fluid">
+            </div>
           </div>
-          <div class="col-md-4 order-2 header-phone">
-            <a href="#">+7-(999)-999-77-77</a>
-            <button class="header-button">
-                Заказать звонок
-            </button>
-          </div>
-          <div class="col-md-5 header-info">
+          <div class="col-xl-5 d-none d-xl-block header-info">
             <div class="menu-item">
               <i class="fas fa-map-marker-alt main-menu__icon"></i>
               <p>г. Казань,<br>ул. Воровского 20</p>
@@ -32,13 +29,23 @@
               </p>
             </div>
           </div>
+          <div class="col-xl-4 col-md-8 col-4 header-phone">
+            <a href="#">+7-(999)-999-77-77</a>
+            <button class="header-button d-none d-md-block d-lg-block d-xl-block">
+                Заказать звонок
+            </button>
+          </div>
+
+          <div class="menu-icon-wrapper d-xl-none col-4 col-md-1">
+            <div class="menu-icon"></div>
+          </div>
         </div>
       </div>
     </div>
 
       <div class="container">
         <div class="row">
-          <div class="col-xl-8  col-lg-12 col-md-12 col-sm-12">
+          <div class="col-xl-8  col-lg-12 col-md-12 col-sm-12 col-12">
             <div class="offer-cont">
               <h1 class="offer-cont__title">
                 Качественный <br> <span class="offer-cont__title__word">ремонт</span> авто
@@ -70,16 +77,16 @@
           </div>
         </div>
         <div class="row">
-          <div class="services-menu col-md-12">
+          <div class="services-menu col-md-12 col-12">
             <h3 class="services-menu__active">Ремонт и сервис</h3>
             <h3>Диагностика</h3>
             <h3>Шиномонтаж</h3>
             <h3>Техобслуживание</h3>
           </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
 
-          <div class="col-md-3">
+          <div class="col-xl-3 col-auto">
             <div class="services-card">
               <div class="card-img">
                 <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
@@ -90,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3 col-auto">
             <div class="services-card">
               <div class="card-img">
                 <img src="img/akpp.jpg" alt="mkpp" class="card-img-top">
@@ -101,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3 col-auto">
             <div class="services-card">
               <div class="card-img">
                 <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
@@ -112,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-xl-3 col-auto">
             <div class="services-card">
               <div class="card-img">
                 <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
@@ -236,7 +243,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 col-auto">
             <div class="review-card">
               <div class="review-card__box-text">
                 <p class="review-card__text">
@@ -268,7 +275,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 col-auto">
             <div class="review-card">
               <div class="review-card__box-text">
                 <p class="review-card__text">
@@ -282,7 +289,6 @@
               </div>
               <div class="review-card__bottom">
                 <div class="review-card__bottom__image">
-                  <img src="" alt="">
                 </div>
                 <div class="review-card__bottom__name-stars">
                   <h5 class="review-card__bottom__name-stars__name">Мария Серебрякова</h5>
@@ -302,16 +308,16 @@
           </div>
         </div>
 
-        <div class="row navigation-line">
-          <div class="col-md-1 arrow-left">
+        <div class="row justify-content-center navigation-line">
+          <div class="col-md-1 col-auto arrow-left">
             <i class="fas fa-arrow-left"></i>
           </div>
-          <div class="col-md-10 circles">
+          <div class="col-md-10 col-auto circles">
             <i class="fas fa-circle active-circle"></i>
             <i class="fas fa-circle" style="padding-left: 8px;"></i>
             <i class="fas fa-circle" style="padding-left: 8px;"></i>
           </div>
-          <div class="col-md-1 arrow-right">
+          <div class="col-md-1 col-auto arrow-right">
             <i class="fas fa-arrow-right"></i>
           </div>
         </div>
@@ -326,12 +332,12 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-md-5 be-static">
-            <div class="broken-car">
-            </div>
+            <!-- <div class="broken-car">
+            </div> -->
           </div>
-          <div class="col-md-7">
+          <div class="col-xl-7 col-12">
             <div class="contact-card">
               <div class="contact-card__form">
                 <form>
@@ -372,7 +378,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-xl-5 col-auto">
             <div class="contacts-block">
               <p class="contacts-block__text">Ответим на все ваши вопросы, просто оставьте заявку<br>
                 и мы свяжемся с вами в течении 10 минут
@@ -401,11 +407,11 @@
               </div>
             </div>
           </div>
-          <div class="col-md-7">
+   <!--        <div class="col-md-7">
             <div class="contacts__map">
               <img src="img/map.png" alt="map">
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
