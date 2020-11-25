@@ -117,14 +117,14 @@ body {
     margin-right: 26px;
   }
 }
-
+/*
 @media (max-width: 456px) {
   .header-phone a {
     font-family: Value Sans Pro;
     font-size: 0.55rem;
     color: #FFFFFF;
   }
-}
+}*/
 
 .header-button {
   font-family: Value Sans Pro;
@@ -359,22 +359,54 @@ body {
 }
 
 .services-menu__active {
+  border-bottom: #FFD400;
+  border-bottom-style: inset;
+  border-bottom-width: 0px;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .services-menu__active {
     border-bottom: #FFD400;
     border-bottom-style: inset;
+    border-bottom-width: 0px;
+    cursor: pointer;
+  }
+}
+
+.services-menu__active-main {
+}
+
+@media (min-width: 769px) {
+  .services-menu__active-main {
+    border-bottom: #FFD400;
+    border-bottom-style: inset;
     border-bottom-width: 7px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-menu__active-main {
+    border-bottom: #FFD400;
+    border-bottom-style: inset;
+    border-bottom-width: 7px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
   }
 }
 
 @media (max-width: 768px) {
   .services-menu__active {
-    color: #FFD400;
-    -moz-text-shadow:0 0 2px #FFD400;
-    -webkit-text-shadow:0 0 2px #FFD400;
-    text-shadow:0 0 2px #FFD400;
+    border-bottom: #FFD400;
+    border-bottom-style: inset;
+    border-bottom-width: 0px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
   }
 }
 
@@ -534,7 +566,7 @@ body {
   padding-top: 19px;
 }
 
-@media (max-width: 1200px) and (min-width: 768px) {
+@media (max-width: 1200px) and (min-width: 769px) {
   .review-card__bottom__name-stars {
     margin-left: 22px;
     padding-top: 0px;
