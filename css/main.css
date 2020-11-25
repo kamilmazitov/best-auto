@@ -5,7 +5,6 @@ body {
   overflow-x:hidden
 }
 
-
 .menu-icon-wrapper {
   width: 30px;
   height: 30px;
@@ -257,6 +256,20 @@ body {
     text-align: center;
   }
 }
+
+@media (max-width: 456px) {
+  .offer-cont__title {
+    font-family: Value Sans Pro;
+    font-weight: 900;
+    font-size: 37px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    margin-bottom: 21px;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
 
 .offer-cont__title__word {
   color: #FFD400;
@@ -641,7 +654,20 @@ body {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .broken-car {
+    z-index: -1;
+    background: url(../img/broken-car-2.png) no-repeat left top;
+    width: 1200px;
+    height: 4007px;
+    background-size: 86%;
+    position: absolute;
+    left: 0;
+    top: 553px;
+  }
+}
+
+@media (min-width: 1920px) {
   .broken-car {
     z-index: -1;
     background: url(../img/broken-car.png) no-repeat left top;
@@ -673,6 +699,19 @@ body {
   font-family: Value Sans Pro;
 }
 
+@media (max-width: 370px) {
+  .contact-card__first-line input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 200px;
+    margin-bottom: 45px;
+    color: #FFFFFF;
+    font-family: Value Sans Pro;
+  }
+}
+
 .contact-card__first-line label {
   font-family: Value Sans Pro;
   color: #ffffff;
@@ -687,6 +726,19 @@ body {
   margin-bottom: 45px;
   color: #FFFFFF;
   font-family: Value Sans Pro;
+}
+
+@media (max-width: 370px) {
+  .contact-card__second-line input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 200px;
+    margin-bottom: 45px;
+    color: #FFFFFF;
+    font-family: Value Sans Pro;
+  }
 }
 
 .contact-card__second-line label {

@@ -5,3 +5,4 @@ function include(url) {
     }
 
 include("js/menu-icon.js");
+include("js/services_menu.js");

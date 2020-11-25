@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -76,61 +77,142 @@
             </p>
           </div>
         </div>
-        <div class="row">
-          <div class="services-menu col-md-12 col-12">
-            <h3 class="services-menu__active">Ремонт и сервис</h3>
-            <h3>Диагностика</h3>
-            <h3>Шиномонтаж</h3>
-            <h3>Техобслуживание</h3>
-          </div>
-        </div>
-        <div class="row justify-content-center">
 
-          <div class="col-xl-3 col-auto">
-            <div class="services-card">
-              <div class="card-img">
-                <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <p>Ремонт МКПП<p>
-                <h3>от 4 500 ₽</h3>
-              </div>
+
+        <div id="page-wrap">
+          <div class="row">
+            <div class="services-menu col-md-12 col-12">
+              <h3 id="fixandservices-button" class="button services-menu__active">Ремонт и сервис</h3>
+              <h3 class="button services-menu__active" id="diagnostics-button">Диагностика</h3>
+              <h3 class="button services-menu__active" id="shinomontazh-button">Шиномонтаж</h3>
+              <h3 class="button services-menu__active" id="tech-button">Техобслуживание</h3>
             </div>
           </div>
-          <div class="col-xl-3 col-auto">
-            <div class="services-card">
-              <div class="card-img">
-                <img src="img/akpp.jpg" alt="mkpp" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <p>Ремонт АКПП</p>
-                <h3>от 6 500 ₽</h3>
+
+          <div id="content">
+            <div id="fixandservices">
+              <div class="row justify-content-center">
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт МКПП<p>
+                      <h3>от 4 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/akpp.jpg" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт АКПП</p>
+                      <h3>от 6 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт ходовой части</p>
+                      <h3>от 1 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт МКПП</p>
+                      <h3>от 4 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-auto">
-            <div class="services-card">
-              <div class="card-img">
-                <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
-              </div>
-              <div class="card-body">
-                <p>Ремонт ходовой части</p>
-                <h3>от 1 500 ₽</h3>
+            <div id="diagnostics" style="display: none;">
+              <div class="row justify-content-center">
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт ходовой части</p>
+                      <h3>от 1 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-xl-3 col-auto">
-            <div class="services-card">
-              <div class="card-img">
-                <img src="img/mkpp.png" alt="mkpp" class="card-img-top">
+            <div id="shinomontazh" style="display: none;">
+              <div class="row justify-content-center">
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт ходовой части</p>
+                      <h3>от 1 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="card-body">
-                <p>Ремонт МКПП</p>
-                <h3>от 4 500 ₽</h3>
+            </div>
+            <div id="tech" style="display: none;">
+              <div class="row justify-content-center">
+                <div class="col-xl-3 col-auto">
+                  <div class="services-card">
+                    <div class="card-img">
+                      <img src="img/remont-podveski.jpg" alt="mkpp" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                      <p>Ремонт ходовой части</p>
+                      <h3>от 1 500 ₽</h3>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+<!--         <div id="page-wrap">
+          <div id="home-button" class="button">
+            <img src="menu-hom.png" alt="home" class="button" />
+          </div>
+          <div id="about-button" class="button">
+            <img src="menu-abo.png" alt="about" class="button">
+          </div>
+          <div id="contact-button" class="button">
+            <img src="menu-con.png" alt="contact" class="button">
+          </div>
+          <div class="clear"></div>
+          <div id="content">
+            <div id="home">
+              <p>Содержание для пункта home</p>
+            </div>
+            <div id="about">
+              <p>Содержание для пункта about</p>
+            </div>
+            <div id="contact">
+              <p>Это содержание для пункта contact</p>
+            </div>
+          </div>
+        </div>
+ -->
+
+
+
         <div class="row">
           <div class="col-md-12">
             <div class="services_btn">
@@ -334,10 +416,10 @@
 
         <div class="row justify-content-center">
           <div class="col-md-5 be-static">
-            <!-- <div class="broken-car">
-            </div> -->
+            <div class="broken-car">
+            </div>
           </div>
-          <div class="col-xl-7 col-12">
+          <div class="col-xl-7 col-sm-12">
             <div class="contact-card">
               <div class="contact-card__form">
                 <form>
