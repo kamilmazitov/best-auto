@@ -6,3 +6,4 @@ function include(url) {
 
 include("js/menu-icon.js");
 include("js/services_menu.js");
+include("js/reviews_slider.js");
