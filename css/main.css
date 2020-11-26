@@ -1,4 +1,5 @@
 @import url('../fonts/stylesheet.css');
+@import url('reviews_slider.css');
 
 body {
   background-color: #14192E;
@@ -169,14 +170,14 @@ body {
 .logo img {
 }
 
-@media (max-width: 1199px) and (min-width: 768px) {
+@media (max-width: 1199px) and (min-width: 769px) {
   .logo img {
     width: 100%;
     margin-top: 10px;
   }
 }
 
-@media (max-width: 768px) and (min-width: 456px) {
+@media (max-width: 768px) and (min-width: 457px) {
   .logo img {
     width: 100%;
     margin-top: 2px;
@@ -870,7 +871,14 @@ body {
 .contacts-block__text {
   font-family: Value Sans Pro;
   color: #FFFFFF;
-  margin-top: 18px;
+}
+
+@media (max-width: 1200px) {
+  .contacts-block__text {
+    font-family: Value Sans Pro;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
 }
 
 .contacts-block {
@@ -909,4 +917,12 @@ body {
 
 .contacts {
   margin-bottom: 120px;
+}
+
+.contacts__map {
+  margin-top: 4px;
+}
+
+.dg-widget-link {
+  width: 100%;
 }
