@@ -6,6 +6,23 @@ body {
   overflow-x:hidden
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url('../img/angle-arrow.png') no-repeat;
+    width: 10px;
+    height: 10px;
+    background-size: auto 10px;
+    border-width: thin;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator:active,
+input[type="date"]::-webkit-calendar-picker-indicator:focus {
+  outline: none;
+}
+
 .menu-icon-wrapper {
   width: 30px;
   height: 30px;
@@ -138,6 +155,31 @@ body {
   outline: none;
   text-decoration: none;
   background: none;
+  border-radius: 3px;
+}
+
+button,
+button:active,
+button:focus {
+    outline: none;
+}
+
+.header-button:active {
+  outline: none;
+}
+
+.header-button:hover {
+  font-family: Value Sans Pro;
+  font-size: 0.9rem;
+  width: 200px;
+  padding: 10px;
+  color: #192034;
+  border: 3px solid #FFD400;
+  text-align: center;
+  font-weight: 500;
+  outline: none;
+  text-decoration: none;
+  background: #FFD400;
   border-radius: 3px;
 }
 
@@ -300,10 +342,10 @@ body {
 .offer-cont__btn {
   width: 200px;
   padding: 10px;
-  color: #fff;
   border: 3px solid #FFD400;
   color: #192034;
   text-align: center;
+  font-family: Value Sans Pro;
   outline: none;
   text-decoration: none;
   background: #FFD400;
@@ -731,6 +773,8 @@ body {
   font-family: Value Sans Pro;
 }
 
+
+
 @media (max-width: 370px) {
   .contact-card__first-line input {
     background: transparent;
@@ -762,6 +806,31 @@ body {
 
 @media (max-width: 370px) {
   .contact-card__second-line input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    width: 200px;
+    margin-bottom: 45px;
+    color: #FFFFFF;
+    font-family: Value Sans Pro;
+  }
+}
+
+.contact-card__second-line select {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  width: 268px;
+  margin-bottom: 45px;
+  color: #FFFFFF;
+  font-family: Value Sans Pro;
+  height: 27px;
+}
+
+@media (max-width: 370px) {
+  .contact-card__second-line select {
     background: transparent;
     border: none;
     border-bottom: 1px solid #fff;
@@ -932,13 +1001,13 @@ iframe {
 
 @media (max-width: 370px) {
   iframe {
-    width: 300px
+    width: 300px;
   }
 
 }
 
 @media (min-width: 371px) and (max-width: 500px) {
   iframe {
-    width: 345px
+    width: 345px;
   }
 }
